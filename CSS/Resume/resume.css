@@ -1,0 +1,14 @@
+ h1,h2,h3,h4,h5 {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+p, ol, ul {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+li {
+    list-style-position: inside;
+    list-style-type: none;
+}
