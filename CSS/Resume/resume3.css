@@ -1,0 +1,75 @@
+body{
+        background-color: rgb(167, 154, 187);
+        margin: 0;
+        padding: 0;
+}
+
+header, footer{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    border: 3px solid rgb(12, 1, 0);
+    padding: 0.2%;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #270146;
+   }
+
+.flex-item{
+    margin: 0.5%;
+    border: 5px solid rgb(17, 2, 0);
+    padding: 1%;
+    background-color: rgb(183, 193, 202);
+    text-align: center;
+}
+
+
+aside {
+        background-color: rgb(213, 241, 156);
+
+        text-align: left;
+        padding: 0.1%;
+        }
+
+
+        .block {
+            position: relative;
+            margin: auto;
+            width: 50%;
+            height: 75%;
+            background: linear-gradient(0deg,rgb(245, 245, 244), #f3efef);
+        }
+        
+        .block:before, .block:after {
+            content: '';
+            position: absolute;
+            left: -2px;
+            top: -2px;
+            background: linear-gradient(45deg, #064b8b, #0000ff, #957efa,#0c0299, #5608bd, #270146, 
+                #0000ff, #c190ee,#2a81d1, #2e0274);
+            background-size: 100%;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            z-index: -1;
+            animation: steam 40s linear;
+            
+        }
+        
+        @keyframes steam {
+            0% {
+                background-position: 0 0;
+            }
+            70% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+        
+        .block:after {
+            filter: blur(60px);
+        }
+   
