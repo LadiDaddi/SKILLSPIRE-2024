@@ -1,0 +1,118 @@
+body{
+    background-color:#f0f4ff
+}
+
+.logo {
+    height: 100px;
+    width: 325px;
+    font-weight: 550;
+    max-height: 25px;  
+    margin-left: 25%;
+    margin-top: 15%;
+    vertical-align:middle;
+    margin-bottom: -10%;
+    font-family:"Lato Extended","Lato" ,"Helvetica Neue", " Helvetica", "Arial", sans-serif;
+    padding: 1px
+}
+ 
+
+.bolded{
+    font-weight:bolder
+}
+
+.login-box {
+        background-color: white;
+        border: 0.5px solid rgb(235, 233, 233);
+        border-radius: 2.5%;
+        float: right;
+        margin-right: 25%;
+        margin-top: 5%;
+        padding: 0.5%;
+        height: 300px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 1px 1px gray;
+        
+}   
+
+#login {
+        background-color: #3361f6;
+        border: 10px;
+        border-radius: 4.5px;
+        color:white;
+        width: 95%;
+        height: 45px;
+        font-weight: 600;
+        margin: 10px;
+}
+
+#forgot-pw {
+    background-color: white;
+    border: 0px;
+    border-radius: 15%;
+    color: #3361f6;
+    font-weight:bold;
+    
+    padding: 5px;
+    font-size:small;
+}
+
+#create-acct {
+    background-color: #00b500;
+    border: 0px;
+    border-radius: 3.5px;
+    color:white;
+    width: 50%;
+    height: 40px;
+    padding: 5px;
+    font-weight: 700;
+   
+}
+
+.under-box {
+            margin: px;
+            margin-left:55%;
+            margin-bottom: 35%;
+            width: 400px;
+         
+}
+#create {
+        font-size:small;
+        width: 300px;
+        margin-bottom: 10%; 
+        
+}
+
+.fb-logo {
+     color: #3361f6;
+     font-size:40px;
+}
+
+#form{
+    padding: 15%;
+    line-height: 25px;
+    margin: 5px;
+   
+}
+#email {
+    border:.5px solid #a1a1a3;
+    border-radius: 3.5px;
+    width: 95%;
+    height: 40px;
+    font-weight: 550;
+    margin: 10px;
+}
+
+#password {
+    border: .5px solid #a1a1a3;
+    border-radius: 3.5px;
+    color:white;
+    width: 95%;
+    height: 40px;
+    font-weight: 550;
+    margin: 10px;
+}
+ .fb-stmt {
+    font-size:20px;
+    font-weight: 530;
+ }
